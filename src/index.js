@@ -9,7 +9,18 @@ class Test extends React.Component {
     return <h1>Hello World!</h1>;
   }
 }
-ReactDOM.render(<Test />,
+class Example extends React.Component {
+  render() {
+    return <div>
+      <ul>
+        <li>Yagnesh</li>
+        <li>Vullam</li>
+        <li>Hello</li>
+      </ul>
+    </div>;
+  }
+}
+ReactDOM.render(<div><Test />, <Example /></div>,
 
   document.getElementById('root')
 );
