@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <h1>HELLO WORLD</h1>,
-  document.getElementById('boot')
+class Test extends React.Component {
+  render() {
+    return <h1>Hello World!</h1>;
+  }
+}
+ReactDOM.render(<Test />,
+
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
