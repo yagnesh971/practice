@@ -3,6 +3,7 @@ import Footer from './Footer';
 import NavBar from './NavBar';
 import MainContent from './MainContent';
 import Checklist from './Checklist';
+import Date from './Date';
 function MyInfo() {
     return (
         <div className="main-container">
@@ -17,6 +18,7 @@ function MyInfo() {
             <MainContent className="content-container" />
             <Footer className="footer-container" />
             <Checklist className />
+            <Date />
         </div>
     )
 }
