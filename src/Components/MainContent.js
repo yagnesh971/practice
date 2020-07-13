@@ -3,7 +3,7 @@ function MainContent() {
     return (
         <div>
             <main>
-                <h2>Testing2</h2>
+                <h2>main</h2>
             </main>
         </div>
     )
