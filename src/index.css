@@ -2,18 +2,3 @@ body{
   margin: 0;
   padding: 0;
 }
-.main-container{
-  display: flex;
-}
-.nav-container{
-  flex: 1;
-}
-.content-container{
-  flex: 1;
-}
-.footer-container{
-  flex: 1;
-}
-.checklist-container{
-  flex: 1;
-}
