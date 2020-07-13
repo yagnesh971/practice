@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
+import NavBar from './NavBar';
+import MainContent from './MainContent';
 function MyInfo() {
     return (
         <div>
@@ -10,6 +12,8 @@ function MyInfo() {
                 <li>Canada</li>
                 <li>USA</li>
             </ul>
+            <NavBar />
+            <MainContent />
             <Footer />
         </div>
     )
