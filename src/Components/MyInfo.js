@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import MainContent from './MainContent';
+import Checklist from './Checklist';
 function MyInfo() {
     return (
         <div>
@@ -15,6 +16,7 @@ function MyInfo() {
             <NavBar />
             <MainContent />
             <Footer />
+            <Checklist />
         </div>
     )
 }
