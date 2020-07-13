@@ -1,9 +1,9 @@
 import React from 'react';
 function Footer() {
     return (
-        <footer>
-            <h3>Footer part</h3>
-        </footer>
+
+        <h3>This is currently about (date.getHours() % 12) o'clock</h3>
+
     )
 }
 export default Footer;
