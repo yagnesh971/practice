@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import MyInfo from "./MyInfo";
 
 class Test extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class Example extends React.Component {
     </div>;
   }
 }
-ReactDOM.render(<div><Test />, <Example /></div>,
+ReactDOM.render(<MyInfo />,
 
   document.getElementById('root')
 );
