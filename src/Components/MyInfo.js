@@ -5,7 +5,7 @@ import MainContent from './MainContent';
 import Checklist from './Checklist';
 function MyInfo() {
     return (
-        <div>
+        <div className="main-container">
             <h1>Yagnesh Vullam</h1>
             <p>This is a paragraph about me..</p>
             <ul>
@@ -13,10 +13,10 @@ function MyInfo() {
                 <li>Canada</li>
                 <li>USA</li>
             </ul>
-            <NavBar />
-            <MainContent />
-            <Footer />
-            <Checklist />
+            <NavBar className="nav-container" />
+            <MainContent className="content-container" />
+            <Footer className="footer-container" />
+            <Checklist className="checklist-container" />
         </div>
     )
 }
