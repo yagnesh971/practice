@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 function MyInfo() {
     return (
         <div>
@@ -9,6 +10,7 @@ function MyInfo() {
                 <li>Canada</li>
                 <li>USA</li>
             </ul>
+            <Footer />
         </div>
     )
 }
