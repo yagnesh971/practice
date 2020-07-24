@@ -3,8 +3,10 @@ import Footer from './Footer';
 import NavBar from './NavBar';
 import MainContent from './MainContent';
 import Checklist from './Checklist';
-import Date from './Date';
-function MyInfo() {
+import Date1 from './Date1';
+
+function MyInfo(props) {
+
     return (
         <div className="main-container">
             <h1>Yagnesh Vullam</h1>
@@ -16,9 +18,9 @@ function MyInfo() {
             </ul>
             <NavBar className="nav-container" />
             <MainContent className="content-container" />
-            <Footer className="footer-container" />
             <Checklist className />
-            <Date />
+            <Date1 test="Hello"></Date1>
+            <Footer className="footer-container" />
         </div>
     )
 }
