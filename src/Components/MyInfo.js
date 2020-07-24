@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import MainContent from './MainContent';
 import Checklist from './Checklist';
 import Date1 from './Date1';
+import Tick from './Tick';
 
 function MyInfo(props) {
 
@@ -21,6 +22,7 @@ function MyInfo(props) {
             <Checklist className />
             <Date1 test="Hello"></Date1>
             <Footer className="footer-container" />
+            <Tick />
         </div>
     )
 }
