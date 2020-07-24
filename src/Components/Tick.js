@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 function Tick() {
 
@@ -9,9 +8,9 @@ function Tick() {
             <h2>It is {new Date().toLocaleTimeString()}.</h2>
         </div>
     );
-    ReactDOM.render(element, document.getElementById('root'));
+
     return (
-        <h1>Good morning</h1>
+        <h1>{element}</h1>
     );
 }
 
