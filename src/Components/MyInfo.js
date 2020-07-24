@@ -5,6 +5,9 @@ import MainContent from './MainContent';
 import Checklist from './Checklist';
 import Date1 from './Date1';
 import Tick from './Tick';
+import Jokes from './Jokes'
+import punchLines from './punchLines';
+
 
 function MyInfo(props) {
 
@@ -23,6 +26,8 @@ function MyInfo(props) {
             <Date1 test="Hello"></Date1>
             <Footer className="footer-container" />
             <Tick />
+            <Jokes />
+            <punchLines />
         </div>
     )
 }
